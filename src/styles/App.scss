@@ -1,0 +1,24 @@
+@import './imports';
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.App{
+    min-height: 100vh;
+    background-color: $gris;
+    .contenedor-principal{
+        padding: 2rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & > h1{
+            font-weight: 700;
+            text-align: center;
+            width: 100%;
+            font-family: Lato, sans-serif;
+            margin-bottom: 2rem;
+        }
+    }
+}
